@@ -18,6 +18,9 @@ class Reaction:
         return False
 
 
+
+
+
     def nice_reaction(self, event):
         if event.emoji.name in nice_emojis:
             user = event.user_id
