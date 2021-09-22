@@ -17,6 +17,7 @@ class Reaction:
                 gamification.channel_reaction(user)
         return False
 
+
     def nice_reaction(self, event):
         if event.emoji.name in nice_emojis:
             user = event.user_id
