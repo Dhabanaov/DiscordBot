@@ -15,13 +15,13 @@ Temos vários sentidos para se retirar dessa máxima, mas o final é o que impor
         return random.choice(reflexoes)
 
     def morning(self):
-        return '''Bom dia'''
+        return '''Bom dia!'''
     
     def afternoon(self):
-        return '''Boa tarde'''
+        return '''Boa tarde!'''
     
     def night(self):
-        return '''Boa noite'''
+        return '''Boa noite!'''
 
     def salutation(self):
         if timeNow.hour < 12 and timeNow.hour >= 6:
